@@ -15,3 +15,4 @@ urlpatterns = [
     path('auth/login/', TokenObtainPairView.as_view(), name = 'token_obtain_pair'),
     #path('auth/login/', CustomAuthToken.as_view(), name = 'token_obtain_pair'),
 ]
+asdadasdasdada
