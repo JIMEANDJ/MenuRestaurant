@@ -12,10 +12,10 @@ export  function SideMenu(props) {
     return (
         <>
         
-     {/* <div className='side_menu_admin'>
+     <div className='side-menu-admin'>
           <MenuLeft pathname={pathname}/>
           <div className='content'>{children}</div>
-     </div> */}
+     </div>
         </>
   )
 }

@@ -11,7 +11,7 @@ export function TopMenu() {
             return `${auth.me.first_name} ${auth.me.last_name}`;
         }
         return auth.me?.email;
-    }
+    }; 
 
 
     return (

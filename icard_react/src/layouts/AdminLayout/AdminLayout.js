@@ -17,8 +17,7 @@ export function AdminLayout(props) {
         </div>
 
         <div className="admin-layout__main-content">
-        <SideMenu/>
-          {children}
+        <SideMenu>{children}</SideMenu>
         </div>
 
       </div>
