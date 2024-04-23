@@ -20,6 +20,8 @@ class UserApiViewSet(ModelViewSet):
     queryset = User.objects.all
     
     
+    
+    
     #encryptar contrase;a a nuevos usuarioos
     def create(self, request, *args, **kwargs):
         request.data['password'] = make_password(request.data['password'])
