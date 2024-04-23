@@ -22,7 +22,7 @@ from drf_yasg import openapi
 from users.api.router import router_user
 from categories.api.router import router_categories
 from products.api.router import router_products
-
+from tables.api.router import router_table
 
 
 
@@ -47,6 +47,8 @@ urlpatterns = [
     path('api/', include(router_user.urls)),
     path('api/', include(router_categories.urls)),
     path('api/', include(router_products.urls)),
+    path('api/', include(router_table.urls)),
+    
     
    
 ]

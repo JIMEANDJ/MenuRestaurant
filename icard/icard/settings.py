@@ -42,9 +42,13 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'drf_yasg',
     'corsheaders',
+    'django_filters',
     'users',
     'categories',
-    'products'
+    'products',
+    'tables',
+    'orders',
+    
     
 ]
 
