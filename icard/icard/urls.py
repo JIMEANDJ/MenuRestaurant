@@ -23,6 +23,7 @@ from users.api.router import router_user
 from categories.api.router import router_categories
 from products.api.router import router_products
 from tables.api.router import router_table
+from orders.api.routers import router_orders
 
 
 
@@ -48,6 +49,7 @@ urlpatterns = [
     path('api/', include(router_categories.urls)),
     path('api/', include(router_products.urls)),
     path('api/', include(router_table.urls)),
+    path('api/', include(router_orders.urls)),
     
     
    
